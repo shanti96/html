@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head><title> Registration Form</title>
+        <link rel="stylesheet" href="css/res-form.css"/>
+    </head>
+    <body >
+        <h2><b><u>STUDENT REGISTRATION FORM</u></b></h2>
+    <br>
+    <br>
+    <form>
+        <!------first name----------------------------------------------------------------------------------------->
+        <table cellpadding="10">
+        <div class="contain">
+       <label for="name"><b>First Name :</b></label>
+       <input id="name" type="text" size="20" placeholder="First name" required><br> <br>
+       <!-------last name-------------------------------------------------------------------------------------------->
+
+       <label for="lname"><b>Last Name :</b></label>
+       <input id="lname" type="text" size="20" placeholder="Last name" required><br><br>
+       </div>
+
+       <!-------date of birth----------------------------------------------------------------------------------------->
+       
+       <div class="hall">
+       <label ><b>Date Of Birth :</b></label>
+        <input type="date" required>
+        <br><br>
+
+        <!--------course----------------------------------------------------------------------------------------------->
+
+       <lable ><b>Course :</b></lable>
+       <select>
+        <option value="COURSE">COURSE</option>
+        <option value="BA">BA</option>
+        <option value="BCA">BCA</option>
+        <option value="B.COM">B.COM</option>
+        <option value="B.TECH">B.TECH</option>
+        <option value="MBA">MBA</option>
+        <option value="M.TECH">M.TECH</option>
+       </select>
+       <br>
+       <br>
+
+       <!---------gender------------------------------------------------------------------------------------------------>
+
+       <div>
+       <label>
+       <b> Gender :</b>
+       </label><br>
+       <input type="radio" name="gender" value="male">Male<br>
+       <input type="radio" name="gender" value="female">Female<br>
+       <input type="radio" name="gender" value="other">Other<br><br>
+       </div>
+
+       <!---------phone number--------------------------------------------------------------------------------------->
+
+       <label for="pho">
+       <b> Phone Number :</b>
+       </label>
+       <input type="text" name="country code" value="+91" size="2">
+       <input placeholder="0000000000" id="pho" type="text" name="phone" size="10" required><br><br>
+
+       <!----------address---------------------------------------------------------------------------------------------------->
+
+       <b>Address :</b><br>
+       <textarea cols="80" rows="4" values="address" required></textarea><br><br>
+       <!---------email-------------------------------------------------------------------------------------------------------->
+
+       <label for="email"> <b>Email :</b></label>
+       <input id="email" type="email" id="email" name="email" size="25" required><br><br>
+       <!----------state------------------------------------------------------------------------------------------------------->
+
+       <label><b>State :</b></label>
+       <input type="text" placeholder="state" required><br><br>
+       <!-----------pin code--------------------------------------------------------------------------------------------------->
+
+       <label><b>Pin Code :</b></label>
+       <input type="number" placeholder="enter the pin number" required><br><br>
+       <!-----------country---------------------------------------------------------------------------------------------------->
+
+       <label><b>Country :</b></label>
+       <input type="text"required><br><br>
+       <!-----------password--------------------------------------------------------------------------------------------------->
+
+       <label for="pass">
+        <b>Password :</b>
+       </label>
+       <input id="pass" type="password" name="password" required><br><br>
+       <!-----------re-type password------------------------------------------------------------------------------------------->
+
+       <b>Re-type password :</b>
+       <input type="password" id="repass" name="repass" required><br><br>
+       <input  type="submit" value="submit">
+       </div>
+       </table>
+    </form>
+    </body>
+</html>
